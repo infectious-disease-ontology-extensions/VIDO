@@ -13522,7 +13522,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:IDO_0000499</AbbreviatedIRI>
-        <Literal xml:lang="en">Active immunization that begins with exposure of an organism to a vaccine.</Literal>
+        <Literal xml:lang="en">Active immunization that begins with exposure of an organism to a vaccine .</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
