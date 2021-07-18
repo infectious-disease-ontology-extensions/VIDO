@@ -12427,7 +12427,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:IDO_0000455</AbbreviatedIRI>
-        <Literal xml:lang="en">Disposition that inheres in a collection of entities in virtue of the individual dispositions of the constituents of that collection.</Literal>
+        <Literal xml:lang="en">Disposition inhering in a collection of entities in virtue of the individual dispositions of the constituents of that collection.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
