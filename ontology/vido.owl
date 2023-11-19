@@ -1339,6 +1339,9 @@
         <Class IRI="/VIDO_0001359"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/VIDO_0001415"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.ebi.ac.uk/efo/EFO_0000684"/>
     </Declaration>
     <Declaration>
@@ -5900,6 +5903,10 @@
     <SubClassOf>
         <Class IRI="/VIDO_0001359"/>
         <Class abbreviatedIRI="obo:BFO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/VIDO_0001415"/>
+        <Class abbreviatedIRI="obo:GO_0008150"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.ebi.ac.uk/efo/EFO_0000684"/>
@@ -20685,6 +20692,26 @@ binary, and takes no temporal argument.
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/VIDO_0001358</IRI>
         <Literal xml:lang="en">viral dormancy interval</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/VIDO_0001415</IRI>
+        <Literal xml:lang="en">viral reassortment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>/VIDO_0001415</IRI>
+        <Literal>Genetic recombination involving the exchange of entire genomic segments released into a host cell that is co-infected by two or more segmented RNA virus strains, resulting in the formation of novel viral progeny inheriting genomic segments from multiple parental strains.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/VIDO_0001415</IRI>
+        <Literal>A genomic segment is "An independently replicating RNA molecule. RNA viruses can possess either a single segment (such that they are unsegmented) or multiple segments. Those with multiple segments may experience reassortment." [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3324781/]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <IRI>/VIDO_0001415</IRI>
+        <Literal>Shane Babcock</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
